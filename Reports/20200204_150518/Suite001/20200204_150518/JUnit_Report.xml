@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite001" time="0.336" tests="0" failures="0" errors="0">
+   <testsuite name="Suite001" tests="0" failures="0" errors="0" time="0.336" timestamp="2020-02-04 15:05:20" hostname="shraddhach - SHRADDHACH.cybage.com" id="Test Suites/Suite001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_150518\\Suite001\\20200204_150518"/>
+         <property name="logFiles" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_150518\\Suite001\\20200204_150518\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shraddhach - SHRADDHACH.cybage.com"/>
+         <property name="hostAddress" value="172.28.52.13"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <system-out><![CDATA[2020-02-04 15:05:20 - [TEST_SUITE][PASSED] - Suite001: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

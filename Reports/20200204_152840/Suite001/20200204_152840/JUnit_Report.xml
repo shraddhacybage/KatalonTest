@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite001" time="520.799" tests="2" failures="0" errors="0">
+   <testsuite name="Suite001" tests="2" failures="0" errors="0" time="520.799" timestamp="2020-02-04 15:28:43" hostname="shraddhach - SHRADDHACH.cybage.com" id="Test Suites/Suite001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_152840\\Suite001\\20200204_152840"/>
+         <property name="logFiles" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_152840\\Suite001\\20200204_152840\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_152840\\Suite001\\20200204_152840\\1580810838101.png, C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_152840\\Suite001\\20200204_152840\\1580810843433.png"/>
+         <property name="hostName" value="shraddhach - SHRADDHACH.cybage.com"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.28.52.13"/>
+         <property name="sessionId" value="77086469a667aaf6ff2d686fdec31b91"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/WashTest" time="465.645" classname="Test Cases/WashTest" status="PASSED">
+         <system-out><![CDATA[2020-02-04 15:28:43 - [TEST_CASE][PASSED] - Test Cases/WashTest: Test Cases/WashTest
+
+2020-02-04 15:28:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-04 15:28:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-04 15:28:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-04 15:28:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-04 15:28:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wash.com/"): Navigate to 'https://www.wash.com/' successfully
+
+2020-02-04 15:28:56 - [MESSAGE][PASSED] - Navigate to 'https://www.wash.com/' successfully
+
+2020-02-04 15:28:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/a_Mobile Pay")): Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/a_Mobile Pay' is clicked on
+
+2020-02-04 15:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/a_Mobile Pay' is clicked on
+
+2020-02-04 15:28:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2"), "Property Owner / Manager", true): All options with value 'Property Owner / Manager' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-04 15:29:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='quform_8_34_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:29:45 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:29:45 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//select[@id='quform_8_34_849a62']'.
+
+2020-02-04 15:29:45 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div/div/div[2]/div/select'.
+
+2020-02-04 15:29:46 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]'.
+
+2020-02-04 15:29:46 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_neighbor_0.png
+
+2020-02-04 15:29:47 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='If you’d like to learn more about mobile payment and increasing laundry revenue, contact us today!'])[1]/preceding::select[1]'.
+
+2020-02-04 15:29:47 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_neighbor_1.png
+
+2020-02-04 15:29:48 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/preceding::select[1]'.
+
+2020-02-04 15:29:48 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_neighbor_2.png
+
+2020-02-04 15:29:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//select'.
+
+2020-02-04 15:29:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_position.png
+
+2020-02-04 15:29:49 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:29:49 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:29:49 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]'.
+
+2020-02-04 15:29:49 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:29:50 - [MESSAGE][PASSED] - All options with value 'Property Owner / Manager' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-04 15:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_3"), "shraddha"): Text 'shraddha' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_3'
+
+2020-02-04 15:30:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='quform_8_3_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:30:39 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:30:39 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@id='quform_8_3_849a62']'.
+
+2020-02-04 15:30:39 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[3]/div/div/div/input'.
+
+2020-02-04 15:30:40 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[3]/div/div/div/input'.
+
+2020-02-04 15:30:40 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_3_position.png
+
+2020-02-04 15:30:40 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:30:40 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:30:40 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[3]/div/div/div/input'.
+
+2020-02-04 15:30:40 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:30:40 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_3'
+
+2020-02-04 15:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_38"), "98764553543"): Text '98764553543' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_38'
+
+2020-02-04 15:31:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='quform_8_38_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:31:27 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:31:27 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@id='quform_8_38_849a62']'.
+
+2020-02-04 15:31:27 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[5]/div/div/div/input'.
+
+2020-02-04 15:31:28 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[5]/div/div/div/input'.
+
+2020-02-04 15:31:28 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_38_position.png
+
+2020-02-04 15:31:28 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:31:28 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:31:28 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[5]/div/div/div/input'.
+
+2020-02-04 15:31:28 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:31:28 - [MESSAGE][PASSED] - Text '98764553543' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_38'
+
+2020-02-04 15:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_39"), "dgdghbmjbm"): Text 'dgdghbmjbm' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_39'
+
+2020-02-04 15:32:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='quform_8_39_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:32:14 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:32:15 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@id='quform_8_39_849a62']'.
+
+2020-02-04 15:32:15 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[6]/div/div/div/input'.
+
+2020-02-04 15:32:15 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[6]/div/div/div/input'.
+
+2020-02-04 15:32:16 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:32:16 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:32:16 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:32:16 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[6]/div/div/div/input'.
+
+2020-02-04 15:32:16 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:32:16 - [MESSAGE][PASSED] - Text 'dgdghbmjbm' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_39'
+
+2020-02-04 15:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_41"), "hjbjhbn"): Text 'hjbjhbn' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_41'
+
+2020-02-04 15:33:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='quform_8_41_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:33:02 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:33:02 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@id='quform_8_41_849a62']'.
+
+2020-02-04 15:33:03 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[8]/div/div/div/input'.
+
+2020-02-04 15:33:03 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[8]/div/div/div/input'.
+
+2020-02-04 15:33:04 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:04 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:33:04 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:33:04 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[8]/div/div/div/input'.
+
+2020-02-04 15:33:04 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:33:04 - [MESSAGE][PASSED] - Text 'hjbjhbn' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_41'
+
+2020-02-04 15:33:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send")): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-04 15:33:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='quform-form-849a62']/div/div/div/div/div[10]/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:33:50 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:33:50 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[10]/div/button/span'.
+
+2020-02-04 15:33:50 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='If you’d like to learn more about mobile payment and increasing laundry revenue, contact us today!'])[1]/following::span[1]'.
+
+2020-02-04 15:33:51 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:51 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[1]'.
+
+2020-02-04 15:33:51 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:52 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='This field should be left blank'])[1]/preceding::span[1]'.
+
+2020-02-04 15:33:52 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:52 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Subscribe to our newsletter for updates'])[1]/preceding::span[1]'.
+
+2020-02-04 15:33:53 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:53 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='Send']/parent::*'.
+
+2020-02-04 15:33:53 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:53 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[10]/div/button/span'.
+
+2020-02-04 15:33:54 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:33:54 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:33:54 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:33:54 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='If you’d like to learn more about mobile payment and increasing laundry revenue, contact us today!'])[1]/following::span[1]'.
+
+2020-02-04 15:33:54 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-04 15:33:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_8"), "gyubjjhbjh"): Text 'gyubjjhbjh' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_8'
+
+2020-02-04 15:34:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='quform_8_8_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:34:41 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:34:41 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@id='quform_8_8_849a62']'.
+
+2020-02-04 15:34:41 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[4]/div/div/div/input'.
+
+2020-02-04 15:34:41 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[4]/div/div/div/input'.
+
+2020-02-04 15:34:42 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_8_position.png
+
+2020-02-04 15:34:42 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:34:42 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:34:42 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[4]/div/div/div/input'.
+
+2020-02-04 15:34:42 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:34:42 - [MESSAGE][PASSED] - Text 'gyubjjhbjh' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input__quform_8_8'
+
+2020-02-04 15:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send")): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-04 15:35:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='quform-form-849a62']/div/div/div/div/div[10]/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:35:28 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:35:28 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div[10]/div/button/span'.
+
+2020-02-04 15:35:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='If you’d like to learn more about mobile payment and increasing laundry revenue, contact us today!'])[1]/following::span[1]'.
+
+2020-02-04 15:35:29 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:35:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[1]'.
+
+2020-02-04 15:35:30 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send_neighbor_8.png
+
+2020-02-04 15:35:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='This field should be left blank'])[1]/preceding::span[1]'.
+
+2020-02-04 15:35:30 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:35:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Subscribe to our newsletter for updates'])[1]/preceding::span[1]'.
+
+2020-02-04 15:35:31 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:35:31 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='Send']/parent::*'.
+
+2020-02-04 15:35:31 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:35:32 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[10]/div/button/span'.
+
+2020-02-04 15:35:32 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-02-04 15:35:32 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:35:32 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:35:32 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='If you’d like to learn more about mobile payment and increasing laundry revenue, contact us today!'])[1]/following::span[1]'.
+
+2020-02-04 15:35:32 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-04 15:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/img")): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img' is clicked on
+
+2020-02-04 15:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img' is clicked on
+
+2020-02-04 15:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/img_Get a Quote_tog-ele")): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_Get a Quote_tog-ele' is clicked on
+
+2020-02-04 15:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_Get a Quote_tog-ele' is clicked on
+
+2020-02-04 15:35:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/input_Get a Quote_s"), ""): Text '' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input_Get a Quote_s'
+
+2020-02-04 15:35:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input_Get a Quote_s'
+
+2020-02-04 15:35:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2"), "Resident", true): All options with value 'Resident' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-04 15:36:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='quform_8_34_849a62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 15:36:20 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-04 15:36:20 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//select[@id='quform_8_34_849a62']'.
+
+2020-02-04 15:36:20 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='quform-form-849a62']/div/div/div/div/div/div/div[2]/div/select'.
+
+2020-02-04 15:36:21 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]'.
+
+2020-02-04 15:36:21 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_neighbor_8.png
+
+2020-02-04 15:36:21 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='If you’d like to learn more about mobile payment and increasing laundry revenue, contact us today!'])[1]/preceding::select[1]'.
+
+2020-02-04 15:36:22 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_neighbor_9.png
+
+2020-02-04 15:36:22 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/preceding::select[1]'.
+
+2020-02-04 15:36:22 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_neighbor_10.png
+
+2020-02-04 15:36:23 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//select'.
+
+2020-02-04 15:36:23 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2_position.png
+
+2020-02-04 15:36:23 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\shraddhach\git\KatalonTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2020-02-04 15:36:23 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/shraddhach/git/KatalonTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-02-04 15:36:23 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]'.
+
+2020-02-04 15:36:23 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-02-04 15:36:24 - [MESSAGE][PASSED] - All options with value 'Resident' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-04 15:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/img_1")): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_1' is clicked on
+
+2020-02-04 15:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_1' is clicked on
+
+2020-02-04 15:36:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/img")): Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/img' is clicked on
+
+2020-02-04 15:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/img' is clicked on
+
+2020-02-04 15:36:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-04 15:36:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestDemo" time="54.178" classname="Test Cases/TestDemo" status="PASSED">
+         <system-out><![CDATA[2020-02-04 15:36:29 - [TEST_CASE][PASSED] - Test Cases/TestDemo: Test Cases/TestDemo
+
+2020-02-04 15:36:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-04 15:36:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-04 15:36:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-04 15:36:32 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.automationtesting.in/"): Navigate to 'http://demo.automationtesting.in/' successfully
+
+2020-02-04 15:36:35 - [MESSAGE][PASSED] - Navigate to 'http://demo.automationtesting.in/' successfully
+
+2020-02-04 15:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg")): Object: 'Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg' is clicked on
+
+2020-02-04 15:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg' is clicked on
+
+2020-02-04 15:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7"), "shraddha"): Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7'
+
+2020-02-04 15:36:39 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7'
+
+2020-02-04 15:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1"), "chandrakar"): Text 'chandrakar' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1'
+
+2020-02-04 15:36:40 - [MESSAGE][PASSED] - Text 'chandrakar' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1'
+
+2020-02-04 15:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7"), "keshav nagar"): Text 'keshav nagar' is set on object 'Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7'
+
+2020-02-04 15:36:40 - [MESSAGE][PASSED] - Text 'keshav nagar' is set on object 'Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7'
+
+2020-02-04 15:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296"), "shraddhach@sybage.com"): Text 'shraddhach@sybage.com' is set on object 'Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296'
+
+2020-02-04 15:36:41 - [MESSAGE][PASSED] - Text 'shraddhach@sybage.com' is set on object 'Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296'
+
+2020-02-04 15:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163"), "9876543219"): Text '9876543219' is set on object 'Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163'
+
+2020-02-04 15:36:41 - [MESSAGE][PASSED] - Text '9876543219' is set on object 'Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163'
+
+2020-02-04 15:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions")): Object: 'Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions' is clicked on
+
+2020-02-04 15:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions' is clicked on
+
+2020-02-04 15:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2")): Object: 'Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2' is clicked on
+
+2020-02-04 15:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2' is clicked on
+
+2020-02-04 15:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/div_Languages_msdd")): Object: 'Object Repository/DemoTest/Page_Register/div_Languages_msdd' is clicked on
+
+2020-02-04 15:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/div_Languages_msdd' is clicked on
+
+2020-02-04 15:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_Hindi")): Object: 'Object Repository/DemoTest/Page_Register/a_Hindi' is clicked on
+
+2020-02-04 15:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_Hindi' is clicked on
+
+2020-02-04 15:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/div_(adsbygoogle  windowadsbygoogle  )push(_930220")): Object: 'Object Repository/DemoTest/Page_Register/div_(adsbygoogle  windowadsbygoogle  )push(_930220' is clicked on
+
+2020-02-04 15:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/div_(adsbygoogle  windowadsbygoogle  )push(_930220' is clicked on
+
+2020-02-04 15:36:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Select Skills                       _fcf818"), "Python", true): All options with value 'Python' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Skills                       _fcf818'  using regular expression
+
+2020-02-04 15:36:45 - [MESSAGE][PASSED] - All options with value 'Python' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Skills                       _fcf818'  using regular expression
+
+2020-02-04 15:36:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Select Country                      _cc64b6"), "India", true): All options with value 'India' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Country                      _cc64b6'  using regular expression
+
+2020-02-04 15:36:49 - [MESSAGE][PASSED] - All options with value 'India' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Country                      _cc64b6'  using regular expression
+
+2020-02-04 15:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/span_Select Country _select2-selection sele_4ca78e")): Object: 'Object Repository/DemoTest/Page_Register/span_Select Country _select2-selection sele_4ca78e' is clicked on
+
+2020-02-04 15:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/span_Select Country _select2-selection sele_4ca78e' is clicked on
+
+2020-02-04 15:36:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_year                             191_0e56cb"), "1993", true): All options with value '1993' are selected in object 'Object Repository/DemoTest/Page_Register/select_year                             191_0e56cb'  using regular expression
+
+2020-02-04 15:36:52 - [MESSAGE][PASSED] - All options with value '1993' are selected in object 'Object Repository/DemoTest/Page_Register/select_year                             191_0e56cb'  using regular expression
+
+2020-02-04 15:36:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Month                               _920c21"), "October", true): All options with value 'October' are selected in object 'Object Repository/DemoTest/Page_Register/select_Month                               _920c21'  using regular expression
+
+2020-02-04 15:36:53 - [MESSAGE][PASSED] - All options with value 'October' are selected in object 'Object Repository/DemoTest/Page_Register/select_Month                               _920c21'  using regular expression
+
+2020-02-04 15:36:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Day                                 _6d848d"), "13", true): All options with value '13' are selected in object 'Object Repository/DemoTest/Page_Register/select_Day                                 _6d848d'  using regular expression
+
+2020-02-04 15:36:54 - [MESSAGE][PASSED] - All options with value '13' are selected in object 'Object Repository/DemoTest/Page_Register/select_Day                                 _6d848d'  using regular expression
+
+2020-02-04 15:36:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DemoTest/Page_Register/input_Password_firstpassword"), "p4y+y39Ir5Ov+WEY7KiS/A=="): Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Password_firstpassword'
+
+2020-02-04 15:36:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Password_firstpassword'
+
+2020-02-04 15:36:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DemoTest/Page_Register/input_Confirm Password_secondpassword"), "p4y+y39Ir5Ov+WEY7KiS/A=="): Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Confirm Password_secondpassword'
+
+2020-02-04 15:36:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Confirm Password_secondpassword'
+
+2020-02-04 15:36:55 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_SwitchTo"): null
+
+2020-02-04 15:36:55 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Web Table/a_Alerts")): Object: 'Object Repository/DemoTest/Page_Web Table/a_Alerts' is clicked on
+
+2020-02-04 15:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Web Table/a_Alerts' is clicked on
+
+2020-02-04 15:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Alerts/a_Alert with Textbox")): Object: 'Object Repository/DemoTest/Page_Alerts/a_Alert with Textbox' is clicked on
+
+2020-02-04 15:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Alerts/a_Alert with Textbox' is clicked on
+
+2020-02-04 15:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Alerts/button_click the button to demonstrate the prompt box")): Object: 'Object Repository/DemoTest/Page_Alerts/button_click the button to demonstrate the prompt box' is clicked on
+
+2020-02-04 15:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Alerts/button_click the button to demonstrate the prompt box' is clicked on
+
+2020-02-04 15:37:02 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+2020-02-04 15:37:02 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2020-02-04 15:37:02 - [TEST_STEP][PASSED] - setAlertText("hello"): Set alert text 'hello' successfully
+
+2020-02-04 15:37:02 - [MESSAGE][PASSED] - Set alert text 'hello' successfully
+
+2020-02-04 15:37:02 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_SwitchTo"): null
+
+2020-02-04 15:37:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_Windows")): Object: 'Object Repository/DemoTest/Page_Register/a_Windows' is clicked on
+
+2020-02-04 15:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_Windows' is clicked on
+
+2020-02-04 15:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames  windows/button_click")): Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click' is clicked on
+
+2020-02-04 15:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click' is clicked on
+
+2020-02-04 15:37:07 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-02-04 15:37:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-02-04 15:37:07 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-02-04 15:37:08 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-02-04 15:37:08 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-02-04 15:37:08 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-02-04 15:37:08 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-02-04 15:37:08 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-04 15:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames  windows/a_Open New Seperate Windows")): Object: 'Object Repository/DemoTest/Page_Frames  windows/a_Open New Seperate Windows' is clicked on
+
+2020-02-04 15:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames  windows/a_Open New Seperate Windows' is clicked on
+
+2020-02-04 15:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames  windows/button_click_1")): Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click_1' is clicked on
+
+2020-02-04 15:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click_1' is clicked on
+
+2020-02-04 15:37:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-02-04 15:37:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-04 15:37:13 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-02-04 15:37:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-02-04 15:37:13 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-02-04 15:37:14 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-02-04 15:37:14 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-02-04 15:37:14 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-02-04 15:37:14 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_SwitchTo"): null
+
+2020-02-04 15:37:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames/a_Frames")): Object: 'Object Repository/DemoTest/Page_Frames/a_Frames' is clicked on
+
+2020-02-04 15:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames/a_Frames' is clicked on
+
+2020-02-04 15:37:17 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/DemoTest/Page_Frames/a_Single Iframe"), 5): null
+
+2020-02-04 15:37:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Frames/single Iframe input field"), "shraddha"): Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Frames/single Iframe input field'
+
+2020-02-04 15:37:17 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Frames/single Iframe input field'
+
+2020-02-04 15:37:17 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-02-04 15:37:17 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2020-02-04 15:37:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_152840\\Suite001\\20200204_152840\\1580810838101.png]]
+
+2020-02-04 15:37:18 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_More"): null
+
+2020-02-04 15:37:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_More' is hovered
+
+2020-02-04 15:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_More' is hovered
+
+2020-02-04 15:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_File Upload")): Object: 'Object Repository/DemoTest/Page_Register/a_File Upload' is clicked on
+
+2020-02-04 15:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_File Upload' is clicked on
+
+2020-02-04 15:37:22 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/DemoTest/Page_File input - Multi select/input_Browse _input4"), "D:\images.jpg"): File 'D:\images.jpg' sent to object: 'Object Repository/DemoTest/Page_File input - Multi select/input_Browse _input4'
+
+2020-02-04 15:37:22 - [MESSAGE][PASSED] - File 'D:\images.jpg' sent to object: 'Object Repository/DemoTest/Page_File input - Multi select/input_Browse _input4'
+
+2020-02-04 15:37:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-02-04 15:37:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_152840\\Suite001\\20200204_152840\\1580810843433.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-04 15:28:43 - [TEST_SUITE][PASSED] - Suite001: Test Cases/TestDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite001" time="178.601" tests="2" failures="1" errors="0">
+   <testsuite name="Suite001" tests="2" failures="1" errors="0" time="178.601" timestamp="2020-02-05 13:51:37" hostname="shraddhach - SHRADDHACH.cybage.com" id="Test Suites/Suite001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200205_135134\\Suite001\\20200205_135134"/>
+         <property name="logFiles" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200205_135134\\Suite001\\20200205_135134\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200205_135134\\Suite001\\20200205_135134\\1580891074273.png"/>
+         <property name="hostName" value="shraddhach - SHRADDHACH.cybage.com"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.28.52.13"/>
+         <property name="sessionId" value="4e807de59fddb095a1678575a567135a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/WashTest" time="106.137" classname="Test Cases/WashTest" status="PASSED">
+         <system-out><![CDATA[2020-02-05 13:51:37 - [TEST_CASE][PASSED] - Test Cases/WashTest: Test Cases/WashTest
+
+2020-02-05 13:51:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-05 13:51:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-05 13:51:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-05 13:51:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-05 13:51:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wash.com/"): Navigate to 'https://www.wash.com/' successfully
+
+2020-02-05 13:52:26 - [MESSAGE][PASSED] - Navigate to 'https://www.wash.com/' successfully
+
+2020-02-05 13:52:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-02-05 13:52:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-05 13:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/a_Mobile Pay")): Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/a_Mobile Pay' is clicked on
+
+2020-02-05 13:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/a_Mobile Pay' is clicked on
+
+2020-02-05 13:52:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2"), "Property Owner / Manager", true): All options with value 'Property Owner / Manager' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-05 13:52:34 - [MESSAGE][PASSED] - All options with value 'Property Owner / Manager' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-05 13:52:34 - [TEST_STEP][PASSED] - mySetText("washObjRepo/Page_Mobile App  WASH/firstname", "shraddha"): null
+
+2020-02-05 13:52:34 - [TEST_STEP][PASSED] - setText(findTestObject(ob), s): Text 'shraddha' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/firstname'
+
+2020-02-05 13:52:35 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/firstname'
+
+2020-02-05 13:52:35 - [TEST_STEP][PASSED] - mySetText("washObjRepo/Page_Mobile App  WASH/phone number", "98764553543"): null
+
+2020-02-05 13:52:35 - [TEST_STEP][PASSED] - setText(findTestObject(ob), s): Text '98764553543' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/phone number'
+
+2020-02-05 13:52:36 - [MESSAGE][PASSED] - Text '98764553543' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/phone number'
+
+2020-02-05 13:52:36 - [TEST_STEP][PASSED] - mySetText("washObjRepo/Page_Mobile App  WASH/email", "dgdghbmjbm"): null
+
+2020-02-05 13:52:36 - [TEST_STEP][PASSED] - setText(findTestObject(ob), s): Text 'dgdghbmjbm' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/email'
+
+2020-02-05 13:52:36 - [MESSAGE][PASSED] - Text 'dgdghbmjbm' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/email'
+
+2020-02-05 13:52:36 - [TEST_STEP][PASSED] - mySetText("washObjRepo/Page_Mobile App  WASH/zipcode", "hjbjhbn"): null
+
+2020-02-05 13:52:36 - [TEST_STEP][PASSED] - setText(findTestObject(ob), s): Text 'hjbjhbn' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/zipcode'
+
+2020-02-05 13:52:36 - [MESSAGE][PASSED] - Text 'hjbjhbn' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/zipcode'
+
+2020-02-05 13:52:36 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send"): null
+
+2020-02-05 13:52:36 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-05 13:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-05 13:52:37 - [TEST_STEP][PASSED] - mySetText("washObjRepo/Page_Mobile App  WASH/lastname", "gyubjjhbjh"): null
+
+2020-02-05 13:52:37 - [TEST_STEP][PASSED] - setText(findTestObject(ob), s): Text 'gyubjjhbjh' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/lastname'
+
+2020-02-05 13:52:38 - [MESSAGE][PASSED] - Text 'gyubjjhbjh' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/lastname'
+
+2020-02-05 13:52:38 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send"): null
+
+2020-02-05 13:52:38 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-05 13:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/span_Send' is clicked on
+
+2020-02-05 13:52:38 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_Mobile App  WASH/img"): null
+
+2020-02-05 13:52:38 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img' is clicked on
+
+2020-02-05 13:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img' is clicked on
+
+2020-02-05 13:52:39 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_Mobile App  WASH/img_Get a Quote_tog-ele"): null
+
+2020-02-05 13:52:39 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_Get a Quote_tog-ele' is clicked on
+
+2020-02-05 13:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_Get a Quote_tog-ele' is clicked on
+
+2020-02-05 13:52:39 - [TEST_STEP][PASSED] - mySetText("Object Repository/washObjRepo/Page_Mobile App  WASH/input_Get a Quote_s", "abc"): null
+
+2020-02-05 13:52:39 - [TEST_STEP][PASSED] - setText(findTestObject(ob), s): Text 'abc' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input_Get a Quote_s'
+
+2020-02-05 13:52:40 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/washObjRepo/Page_Mobile App  WASH/input_Get a Quote_s'
+
+2020-02-05 13:52:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2"), "Resident", true): All options with value 'Resident' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-05 13:52:41 - [MESSAGE][PASSED] - All options with value 'Resident' are selected in object 'Object Repository/washObjRepo/Page_Mobile App  WASH/select_Please selectResidentProperty Owner _5ba5f2'  using regular expression
+
+2020-02-05 13:52:41 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_Mobile App  WASH/img_1"): null
+
+2020-02-05 13:52:41 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_1' is clicked on
+
+2020-02-05 13:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/img_1' is clicked on
+
+2020-02-05 13:52:44 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/img"): null
+
+2020-02-05 13:52:44 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/img' is clicked on
+
+2020-02-05 13:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/img' is clicked on
+
+2020-02-05 13:52:44 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_Mobile App  WASH/Residents"): null
+
+2020-02-05 13:52:44 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/Residents' is clicked on
+
+2020-02-05 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_Mobile App  WASH/Residents' is clicked on
+
+2020-02-05 13:52:49 - [TEST_STEP][PASSED] - myClick("Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/ResidentNextButton"): null
+
+2020-02-05 13:52:49 - [TEST_STEP][PASSED] - click(findTestObject(ob)): Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/ResidentNextButton' is clicked on
+
+2020-02-05 13:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/ResidentNextButton' is clicked on
+
+2020-02-05 13:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/AddingDetergent")): Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/AddingDetergent' is clicked on
+
+2020-02-05 13:52:52 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SHRADDHACH', ip: '172.28.52.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SHRADD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 237999e640c221fe3e0fc7a129d513e6
+
+2020-02-05 13:53:22 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SHRADDHACH', ip: '172.28.52.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SHRADD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 237999e640c221fe3e0fc7a129d513e6
+
+2020-02-05 13:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/washObjRepo/Page_WASH  Let us take care of your laundry/AddingDetergent' is clicked on
+
+2020-02-05 13:53:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-05 13:53:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestDemo" time="67.029" classname="Test Cases/TestDemo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestDemo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-05 13:53:27 - [TEST_CASE][FAILED] - Test Cases/TestDemo: Test Cases/TestDemo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-05 13:53:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-05 13:53:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-05 13:53:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-05 13:53:30 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.automationtesting.in/"): Navigate to 'http://demo.automationtesting.in/' successfully
+
+2020-02-05 13:53:34 - [MESSAGE][PASSED] - Navigate to 'http://demo.automationtesting.in/' successfully
+
+2020-02-05 13:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg")): Object: 'Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg' is clicked on
+
+2020-02-05 13:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg' is clicked on
+
+2020-02-05 13:53:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7"), "shraddha"): Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7'
+
+2020-02-05 13:53:40 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7'
+
+2020-02-05 13:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1"), "chandrakar"): Text 'chandrakar' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1'
+
+2020-02-05 13:53:42 - [MESSAGE][PASSED] - Text 'chandrakar' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1'
+
+2020-02-05 13:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7"), "keshav nagar"): Text 'keshav nagar' is set on object 'Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7'
+
+2020-02-05 13:53:43 - [MESSAGE][PASSED] - Text 'keshav nagar' is set on object 'Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7'
+
+2020-02-05 13:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296"), "shraddhach@sybage.com"): Text 'shraddhach@sybage.com' is set on object 'Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296'
+
+2020-02-05 13:53:43 - [MESSAGE][PASSED] - Text 'shraddhach@sybage.com' is set on object 'Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296'
+
+2020-02-05 13:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163"), "9876543219"): Text '9876543219' is set on object 'Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163'
+
+2020-02-05 13:53:44 - [MESSAGE][PASSED] - Text '9876543219' is set on object 'Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163'
+
+2020-02-05 13:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions")): Object: 'Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions' is clicked on
+
+2020-02-05 13:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions' is clicked on
+
+2020-02-05 13:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2")): Object: 'Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2' is clicked on
+
+2020-02-05 13:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2' is clicked on
+
+2020-02-05 13:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/div_Languages_msdd")): Object: 'Object Repository/DemoTest/Page_Register/div_Languages_msdd' is clicked on
+
+2020-02-05 13:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/div_Languages_msdd' is clicked on
+
+2020-02-05 13:53:46 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_Hindi")): Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1580794794341.run(Script1580794794341.groovy:63)
+	... 13 more
+)
+
+2020-02-05 13:54:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-05 13:54:32 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-05 13:54:32 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a'.
+
+2020-02-05 13:54:32 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//a[contains(text(),'Hindi')]'.
+
+2020-02-05 13:54:32 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Hebrew'])[1]/following::a[1]'.
+
+2020-02-05 13:54:33 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Greek'])[1]/following::a[2]'.
+
+2020-02-05 13:54:33 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Hungarian'])[1]/preceding::a[1]'.
+
+2020-02-05 13:54:33 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Icelandic'])[1]/preceding::a[2]'.
+
+2020-02-05 13:54:34 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//*/text()[normalize-space(.)='Hindi']/parent::*'.
+
+2020-02-05 13:54:34 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//li[16]/a'.
+
+2020-02-05 13:54:34 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-02-05 13:54:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1580794794341.run(Script1580794794341.groovy:63)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200205_135134\\Suite001\\20200205_135134\\1580891074273.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-05 13:53:27 - [TEST_CASE][FAILED] - Test Cases/TestDemo: Test Cases/TestDemo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-05 13:51:37 - [TEST_SUITE][FAILED] - Suite001: Test Cases/TestDemo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-02-05 13:51:37 - [TEST_SUITE][FAILED] - Suite001: Test Cases/TestDemo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DemoTest/Page_Register/a_Hindi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TestDemo.run(TestDemo:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580890894927.run(TempTestSuite1580890894927.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DemoTest/Page_Register/a_Hindi' located by 'By.xpath: //form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[16]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

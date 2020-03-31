@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite001" time="56.847" tests="1" failures="0" errors="0">
+   <testsuite name="Suite001" tests="1" failures="0" errors="0" time="56.847" timestamp="2020-02-04 15:13:37" hostname="shraddhach - SHRADDHACH.cybage.com" id="Test Suites/Suite001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_151335\\Suite001\\20200204_151335"/>
+         <property name="logFiles" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_151335\\Suite001\\20200204_151335\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_151335\\Suite001\\20200204_151335\\1580809468602.png, C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_151335\\Suite001\\20200204_151335\\1580809473468.png"/>
+         <property name="hostName" value="shraddhach - SHRADDHACH.cybage.com"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.28.52.13"/>
+         <property name="sessionId" value="6ea793a9c45b82c25491fa80c2df796e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TestDemo" time="55.84" classname="Test Cases/TestDemo" status="PASSED">
+         <system-out><![CDATA[2020-02-04 15:13:37 - [TEST_CASE][PASSED] - Test Cases/TestDemo: Test Cases/TestDemo
+
+2020-02-04 15:13:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-04 15:13:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-04 15:13:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-04 15:13:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-04 15:13:41 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.automationtesting.in/"): Navigate to 'http://demo.automationtesting.in/' successfully
+
+2020-02-04 15:13:44 - [MESSAGE][PASSED] - Navigate to 'http://demo.automationtesting.in/' successfully
+
+2020-02-04 15:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg")): Object: 'Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg' is clicked on
+
+2020-02-04 15:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Index/img_Skip Sign In_enterimg' is clicked on
+
+2020-02-04 15:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7"), "shraddha"): Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7'
+
+2020-02-04 15:13:49 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7'
+
+2020-02-04 15:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1"), "chandrakar"): Text 'chandrakar' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1'
+
+2020-02-04 15:13:50 - [MESSAGE][PASSED] - Text 'chandrakar' is set on object 'Object Repository/DemoTest/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7_1'
+
+2020-02-04 15:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7"), "keshav nagar"): Text 'keshav nagar' is set on object 'Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7'
+
+2020-02-04 15:13:50 - [MESSAGE][PASSED] - Text 'keshav nagar' is set on object 'Object Repository/DemoTest/Page_Register/textarea_Address_form-control ng-untouched _b1abf7'
+
+2020-02-04 15:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296"), "shraddhach@sybage.com"): Text 'shraddhach@sybage.com' is set on object 'Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296'
+
+2020-02-04 15:13:51 - [MESSAGE][PASSED] - Text 'shraddhach@sybage.com' is set on object 'Object Repository/DemoTest/Page_Register/input_Email address_form-control ng-untouch_b58296'
+
+2020-02-04 15:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163"), "9876543219"): Text '9876543219' is set on object 'Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163'
+
+2020-02-04 15:13:51 - [MESSAGE][PASSED] - Text '9876543219' is set on object 'Object Repository/DemoTest/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163'
+
+2020-02-04 15:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions")): Object: 'Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions' is clicked on
+
+2020-02-04 15:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/input_FeMale_radiooptions' is clicked on
+
+2020-02-04 15:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2")): Object: 'Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2' is clicked on
+
+2020-02-04 15:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/input_Cricket_checkbox2' is clicked on
+
+2020-02-04 15:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/div_Languages_msdd")): Object: 'Object Repository/DemoTest/Page_Register/div_Languages_msdd' is clicked on
+
+2020-02-04 15:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/div_Languages_msdd' is clicked on
+
+2020-02-04 15:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_Hindi")): Object: 'Object Repository/DemoTest/Page_Register/a_Hindi' is clicked on
+
+2020-02-04 15:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_Hindi' is clicked on
+
+2020-02-04 15:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/div_(adsbygoogle  windowadsbygoogle  )push(_930220")): Object: 'Object Repository/DemoTest/Page_Register/div_(adsbygoogle  windowadsbygoogle  )push(_930220' is clicked on
+
+2020-02-04 15:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/div_(adsbygoogle  windowadsbygoogle  )push(_930220' is clicked on
+
+2020-02-04 15:13:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Select Skills                       _fcf818"), "Python", true): All options with value 'Python' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Skills                       _fcf818'  using regular expression
+
+2020-02-04 15:13:55 - [MESSAGE][PASSED] - All options with value 'Python' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Skills                       _fcf818'  using regular expression
+
+2020-02-04 15:13:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Select Country                      _cc64b6"), "India", true): All options with value 'India' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Country                      _cc64b6'  using regular expression
+
+2020-02-04 15:13:59 - [MESSAGE][PASSED] - All options with value 'India' are selected in object 'Object Repository/DemoTest/Page_Register/select_Select Country                      _cc64b6'  using regular expression
+
+2020-02-04 15:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/span_Select Country _select2-selection sele_4ca78e")): Object: 'Object Repository/DemoTest/Page_Register/span_Select Country _select2-selection sele_4ca78e' is clicked on
+
+2020-02-04 15:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/span_Select Country _select2-selection sele_4ca78e' is clicked on
+
+2020-02-04 15:13:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_year                             191_0e56cb"), "1993", true): All options with value '1993' are selected in object 'Object Repository/DemoTest/Page_Register/select_year                             191_0e56cb'  using regular expression
+
+2020-02-04 15:14:02 - [MESSAGE][PASSED] - All options with value '1993' are selected in object 'Object Repository/DemoTest/Page_Register/select_year                             191_0e56cb'  using regular expression
+
+2020-02-04 15:14:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Month                               _920c21"), "October", true): All options with value 'October' are selected in object 'Object Repository/DemoTest/Page_Register/select_Month                               _920c21'  using regular expression
+
+2020-02-04 15:14:03 - [MESSAGE][PASSED] - All options with value 'October' are selected in object 'Object Repository/DemoTest/Page_Register/select_Month                               _920c21'  using regular expression
+
+2020-02-04 15:14:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoTest/Page_Register/select_Day                                 _6d848d"), "13", true): All options with value '13' are selected in object 'Object Repository/DemoTest/Page_Register/select_Day                                 _6d848d'  using regular expression
+
+2020-02-04 15:14:05 - [MESSAGE][PASSED] - All options with value '13' are selected in object 'Object Repository/DemoTest/Page_Register/select_Day                                 _6d848d'  using regular expression
+
+2020-02-04 15:14:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DemoTest/Page_Register/input_Password_firstpassword"), "p4y+y39Ir5Ov+WEY7KiS/A=="): Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Password_firstpassword'
+
+2020-02-04 15:14:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Password_firstpassword'
+
+2020-02-04 15:14:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DemoTest/Page_Register/input_Confirm Password_secondpassword"), "p4y+y39Ir5Ov+WEY7KiS/A=="): Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Confirm Password_secondpassword'
+
+2020-02-04 15:14:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DemoTest/Page_Register/input_Confirm Password_secondpassword'
+
+2020-02-04 15:14:06 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_SwitchTo"): null
+
+2020-02-04 15:14:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:14:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Web Table/a_Alerts")): Object: 'Object Repository/DemoTest/Page_Web Table/a_Alerts' is clicked on
+
+2020-02-04 15:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Web Table/a_Alerts' is clicked on
+
+2020-02-04 15:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Alerts/a_Alert with Textbox")): Object: 'Object Repository/DemoTest/Page_Alerts/a_Alert with Textbox' is clicked on
+
+2020-02-04 15:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Alerts/a_Alert with Textbox' is clicked on
+
+2020-02-04 15:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Alerts/button_click the button to demonstrate the prompt box")): Object: 'Object Repository/DemoTest/Page_Alerts/button_click the button to demonstrate the prompt box' is clicked on
+
+2020-02-04 15:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Alerts/button_click the button to demonstrate the prompt box' is clicked on
+
+2020-02-04 15:14:13 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+2020-02-04 15:14:13 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2020-02-04 15:14:13 - [TEST_STEP][PASSED] - setAlertText("hello"): Set alert text 'hello' successfully
+
+2020-02-04 15:14:13 - [MESSAGE][PASSED] - Set alert text 'hello' successfully
+
+2020-02-04 15:14:13 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_SwitchTo"): null
+
+2020-02-04 15:14:13 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_Windows")): Object: 'Object Repository/DemoTest/Page_Register/a_Windows' is clicked on
+
+2020-02-04 15:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_Windows' is clicked on
+
+2020-02-04 15:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames  windows/button_click")): Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click' is clicked on
+
+2020-02-04 15:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click' is clicked on
+
+2020-02-04 15:14:16 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-02-04 15:14:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-02-04 15:14:17 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-02-04 15:14:18 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-02-04 15:14:18 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-02-04 15:14:18 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-02-04 15:14:18 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-02-04 15:14:18 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-04 15:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames  windows/a_Open New Seperate Windows")): Object: 'Object Repository/DemoTest/Page_Frames  windows/a_Open New Seperate Windows' is clicked on
+
+2020-02-04 15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames  windows/a_Open New Seperate Windows' is clicked on
+
+2020-02-04 15:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames  windows/button_click_1")): Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click_1' is clicked on
+
+2020-02-04 15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames  windows/button_click_1' is clicked on
+
+2020-02-04 15:14:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-02-04 15:14:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-04 15:14:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-02-04 15:14:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-02-04 15:14:23 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-02-04 15:14:24 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-02-04 15:14:24 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-02-04 15:14:24 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-02-04 15:14:24 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_SwitchTo"): null
+
+2020-02-04 15:14:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_SwitchTo' is hovered
+
+2020-02-04 15:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Frames/a_Frames")): Object: 'Object Repository/DemoTest/Page_Frames/a_Frames' is clicked on
+
+2020-02-04 15:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Frames/a_Frames' is clicked on
+
+2020-02-04 15:14:27 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/DemoTest/Page_Frames/a_Single Iframe"), 5): null
+
+2020-02-04 15:14:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoTest/Page_Frames/single Iframe input field"), "shraddha"): Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Frames/single Iframe input field'
+
+2020-02-04 15:14:28 - [MESSAGE][PASSED] - Text 'shraddha' is set on object 'Object Repository/DemoTest/Page_Frames/single Iframe input field'
+
+2020-02-04 15:14:28 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-02-04 15:14:28 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2020-02-04 15:14:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_151335\\Suite001\\20200204_151335\\1580809468602.png]]
+
+2020-02-04 15:14:29 - [TEST_STEP][PASSED] - mouseover("Object Repository/DemoTest/Page_Register/a_More"): null
+
+2020-02-04 15:14:29 - [TEST_STEP][PASSED] - mouseOver(findTestObject(ob)): Object: 'Object Repository/DemoTest/Page_Register/a_More' is hovered
+
+2020-02-04 15:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_More' is hovered
+
+2020-02-04 15:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoTest/Page_Register/a_File Upload")): Object: 'Object Repository/DemoTest/Page_Register/a_File Upload' is clicked on
+
+2020-02-04 15:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoTest/Page_Register/a_File Upload' is clicked on
+
+2020-02-04 15:14:32 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/DemoTest/Page_File input - Multi select/input_Browse _input4"), "D:\images.jpg"): File 'D:\images.jpg' sent to object: 'Object Repository/DemoTest/Page_File input - Multi select/input_Browse _input4'
+
+2020-02-04 15:14:32 - [MESSAGE][PASSED] - File 'D:\images.jpg' sent to object: 'Object Repository/DemoTest/Page_File input - Multi select/input_Browse _input4'
+
+2020-02-04 15:14:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-02-04 15:14:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\shraddhach\\git\\KatalonTest\\Reports\\20200204_151335\\Suite001\\20200204_151335\\1580809473468.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-04 15:13:37 - [TEST_SUITE][PASSED] - Suite001: Test Cases/TestDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

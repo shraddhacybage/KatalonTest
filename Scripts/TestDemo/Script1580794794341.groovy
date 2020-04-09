@@ -140,9 +140,9 @@ WebUI.setText(findTestObject('Object Repository/DemoTest/Page_Frames/single Ifra
 
 WebUI.switchToDefaultContent()
 
-WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+//WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
-//File upload
+//Fileupload
 mouseover('Object Repository/DemoTest/Page_Register/a_More')
 
 WebUI.click(findTestObject('Object Repository/DemoTest/Page_Register/a_File Upload'))
